@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign up</title>
+        <link rel="stylesheet" href="./signup.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="icon" href="./icon/cropped-evondev-favicon-192x192.png" sizes="192x192">
+      </head>
+<body >
+    <div class="header">
+        <ul class="nav justify-content-center">
+    
+          <li class="nav-item">
+            <a class="nav-link text-light active" aria-current="page" href="./index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="./community.html">COMMUNITY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="./about.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="./shop.html">SHOP</a>
+          </li>
+         
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <svg style="margin-bottom:5px;color: white;" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-globe-americas" viewBox="0 0 16 16">
+                <path
+                  d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484-.08.08-.162.158-.242.234-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z" />
+              </svg>
+              <span style="color:white ;">
+                COUNTRY
+              </span>
+            </a>
+            <ul class="dropdown-menu language">
+              <li><a class="dropdown-item" href="#">USA</a></li>
+              <li><a class="dropdown-item" href="#">VietNam</a></li>
+              <li><a class="dropdown-item" href="#">Brazil</a></li>
+              <li><a class="dropdown-item" href="#">Australia</a></li>
+              <li><a class="dropdown-item" href="#">Spain</a></li>
+              <li><a class="dropdown-item" href="#">Korean</a></li>
+            </ul>
+          </li>
+          <li class="box">
+    
+            <form class="d-flex ser" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </li>
+          <li class="sign-in">
+            <a href="#mo-ac" title="Sign in">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-person-fill sign-icon" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#mo-ac">
+              <button style="padding:6px;border:none;margin-left: 5%;background: none;color: white;">LOGIN</button>
+            </a>
+          </li>
+        </ul>
+        
+      </div>
+      <div class="modal-contain" id="mo-ac">
+        <div style="padding:10px;">
+          <h1>Sign In</h1>
+          <div style="position:absolute;right: 0;top: 0;padding: 5px;">
+            <a href="#">
+              <button style="border:none;background: none;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-x-lg"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+                </svg>
+              </button>
+            </a>
+          </div>
+          <hr>
+          <div class="modal-signin" style="padding-left:5%;">
+            <video src="./vd/microtrailer.mp4" autoplay loop width="52%"
+              style="position:absolute;right:5%;border-radius: 10px;"></video>
+            <p>Username <br><input type="text" style="border-radius: 5px;border:none;" id="input1"></p>
+            <p>Password <br><input type="text" style="border-radius: 5px;border:none;" id="input2"></p>
+            <input type="checkbox"> Remember me <br><br>
+            <p>Don't have account ?</p><a href="./signup.html" style="color:#000;">SIGN UP</a>
+    
+          </div>
+          <div>
+            <button class="button-signin" onclick="loginsign()" id="input3">Sign in</button>
+          </div>
+        </div>
+    
+      </div>
+    <div class="content" style="margin-top:5%;margin-left: 50%;transform: translateX(-50%);border: 1px solid #000;border-radius: 20px;width:30%;">
+        <h1 style="text-align:center;">SIGN UP</h1>
+        <div class="signup-info" style="padding-left:5%;">
+            <p>Full name <br>
+            <input type="text"  id="" style="width:90%;" placeholder="ex:nguyen huy" id="sign1"></p>
+            <p>Username <br>
+                <input type="text"   style="width:90%;" placeholder="ex:changbeositinh" id="sign2"></p>
+            <p>Password <br>
+                <input type="text"  style="width:90%;" placeholder="ex:123456" id="sign3"></p>
+            <p>Email <br>
+                <input type="text"   style="width:90%;" placeholder="ex:changbeo@gmail" id="sign4"></p>
+            <p>Choose one: <br>
+            <input type="radio" id="male" value="sex" checked name="sex"> <label for="male">Male</label><br>
+            <input type="radio" id="female" value="sex" name="sex" > <label for="female"> Female</label><br>
+            <input type="radio" id="other" value="sex" name="sex" > <label for="other"> Other</label><br>
+            </p>
+            <p>Address <br>
+                <input type="text"  id="sign5" style="width:90%;"></p></p>
+        </div>
+        <button style="margin-left:50%;transform: translateX(-50%);padding: 10px;margin-bottom: 2%;border-radius: 10px;background-image: linear-gradient(#C9D6FF, #E2E2E2);border: none;" id="sign6" onclick="signup()">Let's Rock!</button>
+    </div>
+      <!-- Bootstrap -->
+      <script src="./main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+</body>
+</html>
