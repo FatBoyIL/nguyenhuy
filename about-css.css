@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.jump {
+
+  position: fixed;
+  z-index: 50;
+  bottom: 20%;
+  right: 0;
+  width: 30px;
+  height: 30px;
+
+}
+
+.header {
+  
+  top: 0;
+  position: fixed;
+  background-image: linear-gradient(#000046, #1CB5E0);
+  height: auto;
+  width: 100%;
+  z-index: 50;
+}
+
+.nav-link:hover {
+  color: black !important;
+  transition-duration: 0.6s;
+}
+
+.text1 {
+  text-align: center;
+
+}
+
+.title {
+
+  padding: 30px;
+}
+
+.sign-icon {
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  padding-top: 5px;
+  color: whitesmoke;
+}
+
+.sign-icon:hover {
+  color: black;
+  transition: all 0.8s ease-in-out;
+}
+
+
+.footer {
+  margin-top: 10%;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.icon-footer {
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+
+}
+
+.icon-footer>svg {
+  width: 32px;
+  height: 32px;
+  color: white;
+}
+
+.icon-footer>svg:hover {
+
+  width: 40px;
+  height: 40px;
+  color: #00b09b;
+  transition: all 0.6s ease-in-out;
+}
+
+.down>span {
+  color: white;
+  font-size: larger;
+}
+
+
+
+
+.visit {
+  margin-top: -10px;
+  text-align: center;
+
+}
+
+.visit>a:hover {
+  color: bisque !important;
+  font-size: xx-large !important;
+  transition: all 0.6s ease-in-out;
+
+}
+
+.quest>p {
+  padding-top: 20px;
+}
+
+.quest>h1 {
+  padding-top: 20px;
+}
+
+.left>img {
+  padding-top: 20px;
+  width: 40%;
+  height: auto;
+}
+
+h1:hover{
+  font-size: xx-large;
+  text-decoration: underline;
+  transition: all 0.6s linear;
+}
+
+#pic1 {
+  padding-left: 30px;
+}
+
+#pic3 {
+  width: 30%;
+}
+
+#pic4 {
+  padding-top: 20%;
+  padding-left: 10%;
+}
+
+#pic5{
+  width: 30%;
+  margin-bottom: 35%;
+}
+#pic6 {
+  padding-top: 10%;
+}
+
+#pic8 {
+  width: 40%;
+  margin-right: 30%;
+}
+#pic10{
+  padding-top: 20%;
+  padding-left: 50%;
+
+}
+
+.down-right{
+  padding-right: 30px;
+}
+#pic13{
+  margin-left: -50%;
+  padding-top:20%;
+}
+.left{
+  margin-left: -100%;
+}
+.content:hover .left{
+  transition: all 1.1s ease-in-out;
+  margin-left:1%;
+}
+.right{
+  margin-top: -50%;
+}
+.content:hover .right{
+  transition: all 1.1s ease-in-out;
+  margin-top: 0;
+}
+.down-right{
+  margin-top: -100%;
+}
+.content:hover .down-right{
+  transition: all 1.1s ease-in-out;
+  margin-top:0;
+}
+.down-left{
+  margin-left: -100%;
+}
+.content:hover .down-left{
+  transition: all 1.1s ease-in-out;
+  margin-left:1%;
+}
+p{
+  font-size: x-large;
+}
