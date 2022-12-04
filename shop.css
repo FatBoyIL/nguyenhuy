@@ -158,7 +158,7 @@ width: 50%;
 .price-feture{
   border-radius: 10px;
   border: none;
-background-color: #3F5EFB;
+  background-image: linear-gradient(#8e9eab,#eef2f3);
 padding: 10px;
 width: 30%;  
 }
