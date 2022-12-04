@@ -157,6 +157,7 @@ h1:hover{
 #pic8 {
   width: 40%;
   margin-right: 30%;
+  padding-left: 90px;
 }
 #pic10{
   padding-top: 20%;
@@ -179,18 +180,19 @@ h1:hover{
   margin-left:1%;
 }
 .right{
-  margin-top: -50%;
+  margin-top: -100%;
+  
 }
 .content:hover .right{
   transition: all 1.1s ease-in-out;
-  margin-top: 0;
+  margin-top: 1%;
 }
 .down-right{
-  margin-top: -100%;
+  margin-top: -150%;
 }
 .content:hover .down-right{
   transition: all 1.1s ease-in-out;
-  margin-top:0;
+  margin-top:1%;
 }
 .down-left{
   margin-left: -100%;

@@ -132,6 +132,12 @@
     transition: all 0.5s linear;
     font-size: large;
   }
+  .modal-signin>video{
+    position: absolute;
+    right: 0;
+    padding-left: 5%;
+    height: auto;
+  }
   
 /* CONTINUE */
 .com{

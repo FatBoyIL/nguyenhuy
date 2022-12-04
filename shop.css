@@ -95,6 +95,12 @@
     color: white;
     font-size: larger;
   }
+  .modal-signin>video{
+    position: absolute;
+    right: 0;
+    padding-left: 5%;
+    height: auto;
+  }
   .modal-contain{
     border-radius: 10px;
     margin-top:5%;
@@ -150,6 +156,7 @@ width: 50%;
   pointer-events: none;
 }
 .feture-contain:hover .feture-info{
+  
   pointer-events: all;
   right: 50%;
   transform: translateX(50%);

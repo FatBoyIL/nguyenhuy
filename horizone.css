@@ -134,7 +134,12 @@
     font-size: large;
   }
   
-
+  .modal-signin>video{
+    position: absolute;
+    right: 0;
+    padding-left: 5%;
+    height: auto;
+  }
 /* CONTINUE   */
 .content{
   padding-top: 5%;
