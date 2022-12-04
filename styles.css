@@ -16,10 +16,12 @@
     height: 30px;
     
   }
-  .header{
+  .header {
+    
+    top: 0;
     position: fixed;
-    background-image: linear-gradient(#000046,#1CB5E0);
-    height:auto;
+    background-image: linear-gradient(to left, #f72585, #e10092, #c6009f, #a200ac, #7209b7);
+    height: auto;
     width: 100%;
     z-index: 50;
   }
@@ -98,10 +100,11 @@
 .more-seller{
   margin: auto;
   width: fit-content;
-  background-image: linear-gradient(#8A2387,#E94057,#F27121);
+  background-color: #c6ac8f;
   padding: 10px;
   border-radius: 10px;
   z-index: 20;
+  box-shadow: 10px 10px 14px 1px rgb(0 0 0 / 20%);
 }
 .more-seller:hover{
   transition: all 0.5s linear;
@@ -125,6 +128,7 @@ opacity: 0.8;
 .img-con>img{
   width: 400px;
   height: 500px;
+  box-shadow: 10px 10px 14px 1px rgb(0 0 0 / 20%);
 }
 .img{
   width:min-content;
@@ -134,6 +138,10 @@ opacity: 0.8;
 }
 .footer{
   position: relative;
+  margin-top: 10%;
+    position: relative;
+    background-image: linear-gradient(to bottom, #f72585, #ec1f75, #e11b66, #d51957, #c9184a);
+    height:fit-content;
 }
 .logo{
   position:absolute;
@@ -157,7 +165,7 @@ opacity: 0.8;
   
   width: 40px;
   height: 40px;
-  color: #00b09b;
+  color: #000;
   transition: all 0.6s ease-in-out;
 }
 .down>span{
@@ -165,7 +173,8 @@ opacity: 0.8;
   font-size: larger;
 }
 .up-more{
-  color: white;
+  margin-top: 5%;
+  color: black;
 }
 .up-more:hover{
   color: black;
@@ -173,6 +182,7 @@ opacity: 0.8;
   transition: all 0.6s ease-in-out;
 }
 .modal-contain{
+  color: white;
   border-radius: 10px;
   margin-top:5%;
   position: fixed;
@@ -180,7 +190,8 @@ opacity: 0.8;
   border: 1px solid #000;
   width: 30%;
   transform: translateX(-50%);
-  background-image: linear-gradient(#FC466B, #3F5EFB);
+  background-image: linear-gradient(to right bottom, #cb997e, #d1987c, #d6977a, #dc9679, #e29578);
+  box-shadow: 10px 10px 14px 1px rgb(0 0 0 / 20%);
   opacity: 0;
   pointer-events: none;
 }
@@ -205,7 +216,7 @@ opacity: 0.8;
   border-radius: 20px;
 }
 .button-signin:hover{
-  background-image: linear-gradient(#fc4a1a, #f7b733);
+  background-image: linear-gradient(to right bottom, #a7c957, #67d695, #34dad0, #5ed8f6, #a2d2ff);
   transition: all 0.5s linear;
   font-size: large;
 }
